@@ -71,18 +71,28 @@ body {
 }
 
 .info-text h1 {
-	color: #1F314F;
-	font-family: "Outfit", sans-serif;
+	color: #1f314f;
+	font-family: 'Outfit', sans-serif;
 	font-size: 22px;
 	text-align: center;
 }
 
 .info-text p {
 	text-align: center;
-	color: #7D889E;
-	font-family: "Outfit", sans-serif;
+	color: #7d889e;
+	font-family: 'Outfit', sans-serif;
 	font-size: 15px;
 	letter-spacing: 0.19px;
 	margin: 0px 10px 0px 10px;
 }
 
+@media (max-width: 375px) {
+	.qr-code {
+		background-color: #3685ff;
+	}
+
+	.span1,
+	.span2 {
+		background-color: #2c7dfa;
+	}
+}
